@@ -124,7 +124,7 @@ include 'connect/koneksi.php';
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-success"><i class="fa-brands fa-whatsapp"></i> Beli</button>
+	        <a href="https://wa.me/+6281911920984? text=Apakah%20Produk%20<?= $data['judul_produk'];?>%20ini%20Masih%20Tersedia?%20" class="btn btn-success"><i class="fa-brands fa-whatsapp"></i> Beli</a>
 	      </div>
 	    </div>
 	  </div>
